@@ -1,28 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <data-table />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DataTable from './components/DataTable.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    DataTable
   }
 }
 </script>
 
 <style lang="scss">
+@import 'assets/scss/normalize.css';
+@import 'assets/scss/popup.scss';
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: 'Helvetica', sans-serif;
+  * {
+    box-sizing: border-box;
+  }
+
+  button {
+    cursor: pointer;
+  }
 }
 </style>
