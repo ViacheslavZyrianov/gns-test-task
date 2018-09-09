@@ -3,19 +3,13 @@
 ## Project setup
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### If you want to build for production
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Live demo
+https://viacheslavzyrianov.github.io/gns-test-task/
